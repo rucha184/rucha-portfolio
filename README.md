@@ -20,5 +20,5 @@ I enjoy building projects that solve real problems and learning new technologies
 
 **👩‍💻 Contact Me:**  
 📧 Email: kolherucha184@gmail.com  
-🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/rucha-kolhe)  
-🔗 GitHub: [GitHub](https://github.com/rucha184)
+🔗 LinkedIn: https://www.linkedin.com/in/rucha-kolhe
+🔗 GitHub: https://github.com/rucha184
