@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button id="toggleBtn">🌙</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero">
+    <h1>Hello,<br> I'm Rucha Kolhe</h1>
+    <p id="typing"></p>
+  </header>
+
+  <!-- About -->
+  <section id="about" data-reveal>
+    <h2><span>About</span> Me</h2>
+    <p style="text-align:center;max-width:700px;margin:auto;">
+      I'm a Front-End Developer passionate about building interactive and modern web applications. 
+      Always eager to learn and contribute, currently seeking internship opportunities.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" data-reveal>
+    <h2><span>My</span> Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">PHP</div>
+      <div class="skill">MYSQL</div>
+    </div>
+  </section>
+
+  <!--Projects -->
+  <section id="projects" data-reveal>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>To-Do-List</h3>
+        <p>A responsive To-Do List system for creating and managing tasks efficiently.</p>
+        <a href="https://rucha184.github.io/To-Do-List/">🔗 Demo</a> | <a href="https://github.com/rucha184/To-Do-List.git">💻 Code</a>
+      </div>
+      <div class="project">
+        <h3>Easy-Billing-system</h3>
+        <p>A smart and efficient system for hassle-free billing and invoice management.</p>
+        <a href="https://rucha184.github.io/Easy-Billing-system/">🔗 Demo</a> | <a href="https://github.com/rucha184/Easy-Billing-system.git">💻 Code</a>
+      </div>
+      <div class="project">
+        <h3>To-Do-List-with-backend</h3>
+        <p>Full-stack To-Do List system with backend for task management and persistence.</p>
+        <a href="https://rucha184.github.io/To-Do-List-with-backend/">🔗 Demo</a> | <a href="https://github.com/rucha184/To-Do-List-with-backend.git">💻 Code</a>
+      </div>
+      <div class="project">
+        <h3>php-calculator-auth</h3>
+        <p>Secure PHP calculator with login authentication for personalized calculations</p>
+        <a href="https://rucha184.github.io/php-calculator-auth/">🔗 Demo</a> | <a href="https://github.com/rucha184/php-calculator-auth.git">💻 Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" data-reveal>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:kolherucha184@gmail.com">kolherucha184@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/rucha184 " target="_blank">https://github.com/rucha184 </a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/rucha-kolhe" target="_blank">https://www.linkedin.com/in/rucha-kolhe</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 RUCHA KOLHE</p>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="topBtn" onclick="scrollToTop()">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
