@@ -16,7 +16,9 @@ I enjoy building projects that solve real problems and learning new technologies
 - 🌟 **PHP Calculator Auth** – Secure calculator with login authentication  
 
 **🔗 Live Portfolio:**  
-[Check out my portfolio](#)  <!-- replace # with your live portfolio link -->
+[Check out my portfolio](🔗 Live Portfolio:
+
+[Check out my portfolio](https://rucha184.github.io/rucha-portfolio/)  <!-- replace # with your live portfolio link -->
 
 **👩‍💻 Contact Me:**  
 📧 Email: kolherucha184@gmail.com  
